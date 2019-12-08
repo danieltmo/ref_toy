@@ -10,16 +10,19 @@ package com.mycompany.ref_toy;
  * @author danie
  */
 public class A {
-    
+   
     public void sur(){
-        source();
+        target();
     }
     
     public void source(){
         int a =1;
         a=2;
-        a=2;
-        
+        target();
+    }
+    
+    public void target(){
+        int a=2;
         int b=1;
         b=2;
     }

@@ -14,7 +14,7 @@ public class B {
     A a = new A();
 
     public void ext(){
-        a.source();
+        a.target();
     }
     
 }
